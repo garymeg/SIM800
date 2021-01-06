@@ -25,8 +25,8 @@
 
 #define DEBUG                                   // Uncomment this line to enable Serial Monitor output from this library.
 
-#define DEF_RX_PIN  10                          // RX pin of Arduino. Must be connected to the TX pin of the SIM800 module.
-#define DEF_TX_PIN  11                          // TX pin of Arduino. Must be connected to the RX pin of the SIM800 module.
+#define DEF_RX_PIN  2                          // RX pin of Arduino. Must be connected to the TX pin of the SIM800 module.
+#define DEF_TX_PIN  3                          // TX pin of Arduino. Must be connected to the RX pin of the SIM800 module.
 #define DEF_SPEED   19200                       // The default baudrate which is used if the user calls "void bauds(unsigned long)" (in simserial.h) without arguments.
 #define DEF_TIME_LIMIT  1000                    // The default max time duration in milliseconds to wait for a reply from the SIM800 chip.
 #define DEF_BUFFER_SIZE  300                    // Size of the char[] ioBuffer which is used to buffer outgoing commands and incoming replies.
